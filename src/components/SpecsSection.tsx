@@ -10,7 +10,7 @@ const SpecsSection = () => {
           <div className="flex items-center gap-4">
             <div className="pulse-chip">
               <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">3</span>
-              <span>Specs</span>
+              <span>Specs / Spécifications</span>
             </div>
           </div>
           <div className="flex-1 h-[1px] bg-gray-300"></div>
@@ -20,7 +20,8 @@ const SpecsSection = () => {
         <div className="max-w-5xl pl-4 sm:pl-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display leading-tight mb-8 sm:mb-12">
             <span className="block bg-clip-text text-transparent bg-[url('/text-mask-image.jpg')] bg-cover bg-center">
-              StudyBudd works alongside students and families to create lasting academic success. Through personalized attention, innovative teaching methods, and flexible learning options, we help students unlock their potential and build confidence in their abilities.
+              StudyBudd works alongside students and families to create lasting academic success. Through personalized attention, innovative teaching methods, and flexible learning options, we help students unlock their potential and build confidence in their abilities.<br /><br />
+              StudyBudd travaille aux côtés des étudiants et des familles pour créer un succès académique durable. Grâce à une attention personnalisée, des méthodes d'enseignement innovantes et des options d'apprentissage flexibles, nous aidons les étudiants à libérer leur potentiel et à développer leur confiance en leurs capacités.
             </span>
           </h2>
         </div>

@@ -48,7 +48,7 @@ const DetailsSection = () => {
             backgroundPosition: "center"
           }}>
               <h2 className="text-2xl sm:text-3xl font-display text-white font-bold">
-                Our Services
+                Our Services / Nos Services
               </h2>
             </div>
             
@@ -58,7 +58,8 @@ const DetailsSection = () => {
             border: "1px solid #ECECEC"
           }}>
               <h3 className="text-lg sm:text-xl font-display mb-6 sm:mb-8">
-                Flexible tutoring options to fit your needs
+                Flexible tutoring options to fit your needs<br />
+                <span className="text-base">Options de tutorat flexibles pour répondre à vos besoins</span>
               </h3>
 
               <div className="space-y-4 sm:space-y-6">
@@ -70,7 +71,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Private Tutoring:</span> $30/hour
+                      <span className="font-semibold text-base">Private Tutoring / Tutorat Privé:</span> $30/hour
                     </div>
                   </div>
                 </div>
@@ -83,7 +84,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Group Sessions:</span> Reduced rates
+                      <span className="font-semibold text-base">Group Sessions / Sessions de Groupe:</span> Reduced rates
                     </div>
                   </div>
                 </div>
@@ -96,7 +97,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Monthly Plans:</span> Special discounts
+                      <span className="font-semibold text-base">Monthly Plans / Plans Mensuels:</span> Special discounts
                     </div>
                   </div>
                 </div>
@@ -109,7 +110,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Subjects:</span> Math, Science, Languages
+                      <span className="font-semibold text-base">Subjects / Matières:</span> Math, Science, Languages
                     </div>
                   </div>
                 </div>
@@ -122,7 +123,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Levels:</span> Primary to CEGEP
+                      <span className="font-semibold text-base">Levels / Niveaux:</span> Primary to CEGEP
                     </div>
                   </div>
                 </div>
@@ -139,10 +140,10 @@ const DetailsSection = () => {
             backgroundPosition: "center"
           }}>
               <div className="inline-block px-4 sm:px-6 py-2 border border-white text-white rounded-full text-xs mb-4">
-                Get Started
+                Get Started / Commencer
               </div>
               <h2 className="text-2xl sm:text-3xl font-display text-white font-bold mt-auto">
-                Start your learning journey
+                Start your learning journey / Commencez votre parcours d'apprentissage
               </h2>
             </div>
             
@@ -158,7 +159,7 @@ const DetailsSection = () => {
                     name="fullName" 
                     value={formData.fullName} 
                     onChange={handleChange} 
-                    placeholder="Student name" 
+                    placeholder="Student name / Nom de l'étudiant" 
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pulse-500 focus:border-transparent" 
                     required 
                   />
@@ -170,7 +171,7 @@ const DetailsSection = () => {
                     name="email" 
                     value={formData.email} 
                     onChange={handleChange} 
-                    placeholder="Email address" 
+                    placeholder="Email address / Adresse e-mail" 
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pulse-500 focus:border-transparent" 
                     required 
                   />
@@ -182,7 +183,7 @@ const DetailsSection = () => {
                     name="company" 
                     value={formData.company} 
                     onChange={handleChange} 
-                    placeholder="Subject of interest (optional)" 
+                    placeholder="Subject of interest (optional) / Matière d'intérêt (optionnel)" 
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pulse-500 focus:border-transparent" 
                   />
                 </div>
@@ -192,7 +193,7 @@ const DetailsSection = () => {
                     type="submit" 
                     className="w-full px-6 py-3 bg-pulse-500 hover:bg-pulse-600 text-white font-medium rounded-full transition-colors duration-300"
                   >
-                    Get started
+                    Get started / Commencer
                   </button>
                 </div>
               </form>

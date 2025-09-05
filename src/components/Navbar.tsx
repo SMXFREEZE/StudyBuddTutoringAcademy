@@ -67,9 +67,9 @@ const Navbar = () => {
               scrollToTop();
             }}
           >
-            Home
+            Home / Accueil
           </a>
-          <a href="#features" className="nav-link">About</a>
+          <a href="#features" className="nav-link">About / À propos</a>
           <a href="#details" className="nav-link">Contact</a>
         </nav>
 
@@ -99,7 +99,7 @@ const Navbar = () => {
               document.body.style.overflow = '';
             }}
           >
-            Home
+            Home / Accueil
           </a>
           <a 
             href="#features" 
@@ -109,7 +109,7 @@ const Navbar = () => {
               document.body.style.overflow = '';
             }}
           >
-            About
+            About / À propos
           </a>
           <a 
             href="#details" 
