@@ -54,11 +54,7 @@ const Navbar = () => {
           }}
           aria-label="StudyBudd"
         >
-          <img 
-            src="/logo.svg" 
-            alt="StudyBudd Logo" 
-            className="h-7 sm:h-8" 
-          />
+          <span className="text-xl font-bold text-gray-800">StudyBudd</span>
         </a>
 
         {/* Desktop Navigation */}
