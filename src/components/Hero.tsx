@@ -166,7 +166,7 @@ const Hero = () => {
                     ref={imageRef} 
                     src="/lovable-uploads/3417fc76-06df-48dd-8e8b-4e1299bee829.png" 
                     alt="StudyBudd Academy Logo" 
-                    className="w-full h-full object-contain transition-transform duration-500 ease-out" 
+                    className="w-full h-full object-cover rounded-full transition-transform duration-500 ease-out" 
                     style={{ transformStyle: 'preserve-3d' }} 
                   />
                 </div>
