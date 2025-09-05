@@ -159,19 +159,21 @@ const Hero = () => {
                 />
               </div>
             ) : (
-              <>
-              <div className="absolute inset-0 bg-dark-900 rounded-2xl sm:rounded-3xl -z-10 shadow-xl"></div>
-              <div className="relative transition-all duration-500 ease-out overflow-hidden rounded-2xl sm:rounded-3xl shadow-2xl">
-                <img 
-                  ref={imageRef} 
-                  src="/studybudd-logo.png" 
-                  alt="StudyBudd Academy Logo" 
-                  className="w-full h-auto object-cover transition-transform duration-500 ease-out" 
-                  style={{ transformStyle: 'preserve-3d' }} 
-                />
-                <div className="absolute inset-0" style={{ backgroundImage: 'url("/hero-image.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', mixBlendMode: 'overlay', opacity: 0.5 }}></div>
+              <div className="flex items-center justify-center space-x-6 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <div className="flex-shrink-0">
+                  <img 
+                    ref={imageRef} 
+                    src="/lovable-uploads/3417fc76-06df-48dd-8e8b-4e1299bee829.png" 
+                    alt="StudyBudd Academy Logo" 
+                    className="w-24 h-24 sm:w-32 sm:h-32 object-contain transition-transform duration-500 ease-out" 
+                    style={{ transformStyle: 'preserve-3d' }} 
+                  />
+                </div>
+                <div className="text-white">
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-2">StudyBudd Academy</h3>
+                  <p className="text-white/80 text-sm sm:text-base">Premium Tutoring Excellence</p>
+                </div>
               </div>
-              </>
             )}
           </div>
         </div>
