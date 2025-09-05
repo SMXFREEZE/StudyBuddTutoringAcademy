@@ -23,7 +23,7 @@ const ImageShowcaseSection = () => {
                     <img 
                       src="/lovable-uploads/3417fc76-06df-48dd-8e8b-4e1299bee829.png" 
                       alt="StudyBudd Academy - Quality Learning" 
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-cover rounded-full"
                     />
                   </div>
                 </div>
