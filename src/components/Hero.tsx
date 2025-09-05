@@ -161,13 +161,15 @@ const Hero = () => {
             ) : (
               <div className="flex items-center justify-center space-x-6 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
                 <div className="flex-shrink-0">
+                <div className="w-24 h-24 sm:w-32 sm:h-32 bg-white rounded-full p-4 shadow-lg">
                   <img 
                     ref={imageRef} 
                     src="/lovable-uploads/3417fc76-06df-48dd-8e8b-4e1299bee829.png" 
                     alt="StudyBudd Academy Logo" 
-                    className="w-24 h-24 sm:w-32 sm:h-32 object-contain transition-transform duration-500 ease-out" 
+                    className="w-full h-full object-contain transition-transform duration-500 ease-out" 
                     style={{ transformStyle: 'preserve-3d' }} 
                   />
+                </div>
                 </div>
                 <div className="text-white">
                   <h3 className="text-2xl sm:text-3xl font-bold mb-2">StudyBudd Academy</h3>
