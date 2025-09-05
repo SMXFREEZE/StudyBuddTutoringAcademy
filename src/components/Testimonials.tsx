@@ -10,28 +10,10 @@ interface TestimonialProps {
 }
 
 const testimonials: TestimonialProps[] = [{
-  content: "StudyBudd transformed my approach to learning. The personalized attention helped me improve my math grades from C to A in just two months!",
-  author: "Emma Chen",
-  role: "High School Student",
+  content: "J'ai beaucoup appris avec StudyBudd et ils m'ont aidé à me préparer pour le premier semestre dans des matières comme les mathématiques",
+  author: "Kheloudja ait abdeslam",
+  role: "Étudiante",
   gradient: "from-blue-700 via-indigo-800 to-purple-900",
-  backgroundImage: "/background-section1.png"
-}, {
-  content: "The flexible scheduling and patient instructors at StudyBudd made it possible for my daughter to get the help she needed while balancing her busy schedule.",
-  author: "Michael Rodriguez",
-  role: "Parent",
-  gradient: "from-indigo-900 via-purple-800 to-orange-500",
-  backgroundImage: "/background-section2.png"
-}, {
-  content: "As a CEGEP student struggling with chemistry, StudyBudd's expert tutoring helped me understand complex concepts and ace my exams.",
-  author: "Sarah Patel",
-  role: "CEGEP Student",
-  gradient: "from-purple-800 via-pink-700 to-red-500",
-  backgroundImage: "/background-section3.png"
-}, {
-  content: "The monthly package deal made quality tutoring affordable for our family. The consistent progress tracking shows real results.",
-  author: "Jason Lee",
-  role: "Parent",
-  gradient: "from-orange-600 via-red-500 to-purple-600",
   backgroundImage: "/background-section1.png"
 }];
 
@@ -70,8 +52,10 @@ const Testimonials = () => {
         
         <h2 className="text-5xl font-display font-bold mb-12 text-left">What students & parents say</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {testimonials.map((testimonial, index) => <TestimonialCard key={index} content={testimonial.content} author={testimonial.author} role={testimonial.role} gradient={testimonial.gradient} backgroundImage={testimonial.backgroundImage} />)}
+        <div className="flex justify-center">
+          <div className="max-w-md">
+            {testimonials.map((testimonial, index) => <TestimonialCard key={index} content={testimonial.content} author={testimonial.author} role={testimonial.role} gradient={testimonial.gradient} backgroundImage={testimonial.backgroundImage} />)}
+          </div>
         </div>
       </div>
     </section>;
