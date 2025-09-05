@@ -16,12 +16,20 @@ const ImageShowcaseSection = () => {
         </div>
         
         <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-elegant mx-auto max-w-4xl animate-on-scroll">
-            <div className="w-full bg-white flex justify-center items-center py-12">
-              <img 
-                src="/lovable-uploads/3417fc76-06df-48dd-8e8b-4e1299bee829.png" 
-                alt="StudyBudd Academy - Quality Learning" 
-                className="h-auto max-w-md object-contain"
-              />
+            <div className="w-full bg-gradient-to-br from-blue-50 to-indigo-100 flex justify-center items-center py-16">
+              <div className="relative">
+                <div className="w-64 h-64 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full p-1 shadow-2xl">
+                  <div className="w-full h-full bg-white rounded-full p-8 flex items-center justify-center">
+                    <img 
+                      src="/lovable-uploads/3417fc76-06df-48dd-8e8b-4e1299bee829.png" 
+                      alt="StudyBudd Academy - Quality Learning" 
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                </div>
+                <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-full shadow-lg"></div>
+                <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-gradient-to-br from-indigo-400 to-blue-500 rounded-full shadow-lg"></div>
+              </div>
             </div>
           <div className="bg-white p-4 sm:p-8">
             <h3 className="text-xl sm:text-2xl font-display font-semibold mb-3 sm:mb-4">Next Generation Learning</h3>
