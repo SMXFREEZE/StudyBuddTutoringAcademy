@@ -10,28 +10,22 @@ const HumanIntuitionSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-left">
             <div className="pulse-chip mb-4">
-              <span>About StudyBudd / À propos de StudyBudd</span>
+              <span>About StudyBudd</span>
             </div>
             <h2 className="section-title mb-6">
-              Helping students succeed with clarity and motivation<br />
-              <span className="text-2xl sm:text-3xl lg:text-4xl">Aider les étudiants à réussir avec clarté et motivation</span>
+              Helping students succeed with clarity and motivation
             </h2>
             <p className="text-lg text-gray-700 mb-6">
               At StudyBudd, we believe every student deserves personalized attention and innovative teaching methods. 
               Our approach combines traditional tutoring excellence with modern techniques to create an engaging 
-              learning environment that builds both knowledge and confidence.<br /><br />
-              <span className="text-base">
-                Chez StudyBudd, nous croyons que chaque étudiant mérite une attention personnalisée et des méthodes d'enseignement innovantes. 
-                Notre approche combine l'excellence du tutorat traditionnel avec des techniques modernes pour créer un environnement 
-                d'apprentissage engageant qui développe à la fois les connaissances et la confiance.
-              </span>
+              learning environment that builds both knowledge and confidence.
             </p>
             <ul className="space-y-4">
               {[
-                "Personalized learning plans tailored to each student's unique needs and goals / Plans d'apprentissage personnalisés adaptés aux besoins uniques de chaque étudiant",
-                "Patient, professional tutors who adapt their teaching style to match your learning preferences / Tuteurs patients et professionnels qui adaptent leur style d'enseignement à vos préférences d'apprentissage",
-                "Flexible scheduling with both individual and group sessions available / Horaires flexibles avec des sessions individuelles et de groupe disponibles",
-                "Proven track record of helping students achieve academic success and build confidence / Bilan prouvé d'aide aux étudiants pour atteindre le succès académique et développer la confiance"
+                "Personalized learning plans tailored to each student's unique needs and goals",
+                "Patient, professional tutors who adapt their teaching style to match your learning preferences",
+                "Flexible scheduling with both individual and group sessions available",
+                "Proven track record of helping students achieve academic success and build confidence"
               ].map((item, index) => (
                 <li key={index} className="flex items-start">
                   <div className="mr-3 text-pulse-500">

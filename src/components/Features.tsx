@@ -92,15 +92,13 @@ const Features = () => {
       <div className="section-container">
         <div className="text-center mb-10 sm:mb-16">
           <div className="pulse-chip mx-auto mb-3 sm:mb-4 opacity-0 fade-in-element">
-            <span>Features / Caractéristiques</span>
+            <span>Features</span>
           </div>
           <h2 className="section-title mb-3 sm:mb-4 opacity-0 fade-in-element">
-            Modern Tutoring, Proven Results<br />
-            <span className="text-2xl sm:text-3xl lg:text-4xl">Tutorat Moderne, Résultats Prouvés</span>
+            Modern Tutoring, Proven Results
           </h2>
           <p className="section-subtitle mx-auto opacity-0 fade-in-element">
-            Innovative teaching methods combined with personalized attention to help every student succeed.<br />
-            <span className="text-sm sm:text-base">Méthodes d'enseignement innovantes combinées à une attention personnalisée pour aider chaque étudiant à réussir.</span>
+            Innovative teaching methods combined with personalized attention to help every student succeed.
           </p>
         </div>
         

@@ -8,8 +8,7 @@ const Footer = () => {
           <a href="mailto:studybudd.tutoring@gmail.com" className="text-pulse-500 hover:underline">
             studybudd.tutoring@gmail.com
           </a>{" "}
-          for all inquiries and bookings.<br />
-          <span className="text-xs">© 2024 StudyBudd Academy - Montréal, QC. Contactez-nous à studybudd.tutoring@gmail.com pour toutes demandes et réservations.</span>
+          for all inquiries and bookings.
         </p>
       </div>
     </footer>;
