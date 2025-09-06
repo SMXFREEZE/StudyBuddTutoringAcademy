@@ -38,4 +38,4 @@ This project is built with .
 
 ## Link to project deployed
 
-Simply open https://pulse-robot-template-87143.lovable.app.
+Simply open https://rb.gy/et5bu7.
